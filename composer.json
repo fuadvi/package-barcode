@@ -1,20 +1,22 @@
 {
-  "name": "yourvendor/barcode-generator-package",
-  "description": "A package to generate barcodes in Laravel",
+  "name": "barcodeleu/barcode-generator",
+  "description": "A package to generate barcodes in Laravel 10",
   "type": "library",
+  "license": "MIT",
   "authors": [
     {
-      "name": "Your Name",
-      "email": "your@email.com"
+      "name": "teuku fuad maulana",
+      "email": "fuad.pcd@email.com"
     }
   ],
   "autoload": {
     "psr-4": {
-      "BarcodeLeu\\BarcodeGeneratorPackage\\": "src/"
+      "BarcodeLeu\\BarcodeGenerator\\": "src/"
     }
   },
   "require": {
     "php": "^8.2",
-    "simplesoftwareio/simple-qrcode": "~4"
+    "simplesoftwareio/simple-qrcode": "^4.0",
+    "illuminate/support": "^10.0"
   }
 }
