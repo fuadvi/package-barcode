@@ -18,6 +18,6 @@
     "php": "^8.2",
     "simplesoftwareio/simple-qrcode": "^4.0",
     "illuminate/support": "^10.0",
-    "barcodeleu/barcode-generator": "^1.0"
+    "barcodeleu/barcode-generator": "^1.0.1"
   }
 }
