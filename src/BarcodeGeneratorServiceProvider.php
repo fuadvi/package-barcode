@@ -1,6 +1,6 @@
 <?php
 
-namespace BarcodeLeu\BarcodeGeneratorPackage;
+namespace BarcodeLeu\BarcodeGenerator;
 
 use Illuminate\Support\ServiceProvider;
 use SimpleSoftwareIO\QrCode\Facades\QrCode;
